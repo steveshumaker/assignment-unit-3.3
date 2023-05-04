@@ -4,7 +4,8 @@
   "description": "This week, we will continue to put more into your tool belt by tackling methods for handling tasks multiple times, storing multiple pieces of information, and more advanced decision tools.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -12,5 +13,12 @@
   },
   "author": "Prime Digital Academy",
   "license": "ISC",
-  "homepage": "https://github.com/PrimeAcademy/prime-pw-week-3-assignment#readme"
+  "homepage": "https://github.com/PrimeAcademy/prime-pw-week-3-assignment#readme",
+  "bugs": {
+    "url": "https://github.com/PrimeAcademy/prime-pw-week-3-assignment/issues"
+  },
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
